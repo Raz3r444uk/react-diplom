@@ -1,13 +1,37 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Igra", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+    background: radial-gradient(
+        circle at 24.1% 68.8%,
+        rgb(50, 50, 50) 0%,
+        rgb(0, 0, 0) 99.4%
+    );
+    height: 100vw;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@font-face {
+    font-family: "Igra";
+    font-display: swap;
+    src: url("../src/assets/fonts/igrasans-webfont.woff") format("woff"),
+        url("../src/assets/fonts/igrasans-webfont.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
 }

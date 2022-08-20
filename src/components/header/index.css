@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: url("../../assets/img/food.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 25px 0px;
+}
+
+.header__auth {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}

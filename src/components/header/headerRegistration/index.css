@@ -1,0 +1,21 @@
+.header__register {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    border: 2px solid rgb(109, 108, 108);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(161, 132, 132, 0.23) 0px 3px 6px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(207, 207, 207, 0.4);
+    transition: 0.5s ease-in-out;
+}
+
+.header__register:hover {
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(207, 207, 207, 1);
+}
